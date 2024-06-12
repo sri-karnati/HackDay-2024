@@ -2,4 +2,4 @@
 
 Project Name: Farm Navigator
 
-Team Members: Srivardhan Karnati, Waleed Chatta, Akhil Yarlagadda, Richard Silvester, Dhruv Rebba, Shashank Bhagavatula
+Team Members: Srivardhan Karnati, Waleed Chatta, Akhil Yarlagadda, Dhruv Rebba, Shashank Bhagavatula
