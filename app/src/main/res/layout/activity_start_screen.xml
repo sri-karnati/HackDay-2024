@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartScreen">
+
+    <TextView
+        android:layout_width="305dp"
+        android:layout_height="203dp"
+        android:layout_marginVertical="113dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Welcome to The Farm Navigator"
+        android:gravity="center"
+        android:fontFamily="@font/karla_regular"
+        android:textStyle="bold"
+        android:textColor="#ED1D24"
+        android:textSize="48sp"
+        android:id="@+id/appName"
+         />
+
+    <Button
+        android:id="@+id/reserveRoomButton"
+        android:layout_width="324dp"
+        android:layout_height="59dp"
+        android:layout_marginVertical="203dp"
+        android:text="Reserve Room"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:fontFamily="@font/karla_regular"
+        android:textColor="@color/black"
+        android:backgroundTint="#D9D9D9"
+        app:layout_constraintTop_toBottomOf="@id/appName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

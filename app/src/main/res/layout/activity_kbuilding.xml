@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/k_building_layout" />
+
+    <Button
+        android:id="@+id/circleButton1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:backgroundTint="#006FF2"
+        android:background="@drawable/baseline_circle_24"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="195dp"
+        android:alpha="0.5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="35dp"
+        android:text="Available"
+        android:fontFamily="@font/karla_regular"
+        android:textColor="@color/white"
+        android:background="#006400"
+        android:gravity="center"
+        android:layout_marginTop="55dp"
+        android:id="@+id/circle1Text"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="35dp"
+        android:text="Guide Me"
+        android:fontFamily="@font/karla_regular"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="117dp"
+        android:id="@+id/circle1GuideMe"
+        />
+
+    <Button
+        android:id="@+id/circleButton2"
+        android:layout_width="18dp"
+        android:layout_height="21dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="256dp"
+        android:background="@drawable/baseline_circle_24"
+        android:backgroundTint="#0000FF"
+        android:alpha="0.5" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="35dp"
+        android:text="Reserved"
+        android:fontFamily="@font/karla_regular"
+        android:textColor="@color/white"
+        android:background="#808080"
+        android:gravity="center"
+        android:layout_marginTop="220dp"
+        android:id="@+id/circle2Text"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="35dp"
+        android:text="Guide Me"
+        android:fontFamily="@font/karla_regular"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="280dp"
+        android:id="@+id/circle2TextGuideMe"
+        />
+
+    <Button
+        android:id="@+id/circleButton3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="316dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="380dp"
+        android:alpha="0.5"
+        android:background="@drawable/baseline_circle_24"
+        android:backgroundTint="#0000FF" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="275dp"
+        android:text="Available"
+        android:fontFamily="@font/karla_regular"
+        android:textColor="@color/white"
+        android:background="#006400"
+        android:gravity="center"
+        android:layout_marginTop="345dp"
+        android:id="@+id/circle3Text"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="275dp"
+        android:text="Guide Me"
+        android:fontFamily="@font/karla_regular"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="405dp"
+        android:id="@+id/circle3TextGuideMe"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:contentDescription="Back button"
+        android:src="@drawable/baseline_arrow_back_24"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/j_back_button"
+        />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginVertical="685dp"
+        android:backgroundTint="#ED1D24"
+        android:textColor="@color/white"
+        android:fontFamily="@font/karla_regular"
+        android:text="Request Access"
+        android:inputType="text"
+        android:id="@+id/request_access_button"
+        />
+
+
+
+</RelativeLayout>
